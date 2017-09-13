@@ -63,22 +63,18 @@ until input2_valid
   end
 end
 
-if input1_valid && input2_valid
-  temp = input2.dup
-  input2.each_with_index do |i, j|
-    if j - input1[1].to_i < 0
-      k = j - input1[1].to_i + input1[0].to_i
-      temp[k] = i
-    else
-      temp[j - input1[1].to_i] = i
-    end
+temp = input2.dup
+input2.each_with_index do |i, j|
+  if j - input1[1].to_i < 0
+    k = j - input1[1].to_i + input1[0].to_i
+    temp[k] = i
+  else
+    temp[j - input1[1].to_i] = i
   end
-
-  s = ''
-  temp.each do |i|
-    s += i.to_s + ' '
-  end
-  puts s
-else
-  puts 'Incorrect input! Please retry.'
 end
+
+s = ''
+temp.each do |i|
+  s += i.to_s + ' '
+end
+puts s
