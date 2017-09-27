@@ -58,13 +58,7 @@ else
         next
       end
 
-      input2_valid = true
-      input2.each do |i|
-        next if i.size >= 1 && i.size <= 5
-        puts 'Incorrect word for magazine detected.'
-        input2_valid = false
-        break
-      end
+      input2_valid = true unless input2.find { |i| i.size < 1 || i.size > 5 }
     rescue StandardError => e
       puts 'Incorrect input! Please retry.' + e.message
     end
@@ -80,13 +74,7 @@ else
         next
       end
 
-      input3_valid = true
-      input3.each do |i|
-        next if i.size >= 1 && i.size <= 5
-        puts 'Incorrect word for ransom note detected.'
-        input3_valid = false
-        break
-      end
+      input3_valid = true unless input3.find { |i| i.size < 1 || i.size > 5 }
     rescue
       puts 'Incorrect input! Please retry.'
     end
