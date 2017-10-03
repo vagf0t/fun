@@ -81,16 +81,6 @@ else
   end
 
   result = 'No'
-  input3.delete_if do |word|
-    if input2.include?(word)
-      input2.delete(word)
-      result = 'Yes'
-      true
-    else
-      result = 'No'
-      false
-      break
-    end
-  end
+  result = 'Yes' if (input3 & input2).flat_map { |n| [n]*[input3.count(n), input2.count(n)].min }.sort == input3.sort
   puts result
 end
