@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb40e7b-4d7e-4ea7-b851-0d8f6fdf7dba" name="Default" comment="" />
+    <list default="true" id="beb40e7b-4d7e-4ea7-b851-0d8f6fdf7dba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/models/file_owners.rb" afterPath="$PROJECT_DIR$/app/models/file_owners.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/palindrome.rb" afterPath="$PROJECT_DIR$/app/models/palindrome.rb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_owners.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="file_owners.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/file_owners.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="palindrome.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/palindrome.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -34,7 +47,7 @@
       <file leaf-file-name="anagrams.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anagrams.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="256">
               <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
@@ -57,6 +70,7 @@
         <option value="$PROJECT_DIR$/anagrams.rb" />
         <option value="$PROJECT_DIR$/left_rotation.rb" />
         <option value="$PROJECT_DIR$/app/models/file_owners.rb" />
+        <option value="$PROJECT_DIR$/app/models/palindrome.rb" />
       </list>
     </option>
   </component>
@@ -166,12 +180,12 @@
       <updated>1503304048409</updated>
       <workItem from="1503304049620" duration="17103000" />
       <workItem from="1505114541428" duration="2699000" />
-      <workItem from="1512335356856" duration="382000" />
+      <workItem from="1512335356856" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20184000" />
+    <option name="totallyTimeSpent" value="20450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1318" extended-state="6" />
@@ -240,14 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anagrams.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/left_rotation.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="973">
@@ -256,10 +262,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/anagrams.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/file_owners.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/palindrome.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
