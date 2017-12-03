@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fun.iml" filepath="$PROJECT_DIR$/.idea/fun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LeftRotation.iml" filepath="$PROJECT_DIR$/.idea/LeftRotation.iml" />
     </modules>
   </component>
 </project>
